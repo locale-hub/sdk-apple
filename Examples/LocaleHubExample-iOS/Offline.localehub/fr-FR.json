@@ -1,0 +1,159 @@
+{
+    "strings": {
+        "section.static.title": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Text statique"
+                }
+            ]
+        },
+        "section.static.text": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Ceci est un texte localisé avec LocaleHub"
+                }
+            ]
+        },
+        "section.with_pluralization.title": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Avec pluralisation automatique"
+                }
+            ]
+        },
+        "section.with_pluralization.text": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Marie et Jean ont "
+                },
+                {
+                    "type": "variable",
+                    "variableName": "count"
+                },
+                {
+                    "type": "text",
+                    "literal": " "
+                },
+                {
+                    "type": "text",
+                    "literal": "chien",
+                    "processors": [
+                        {
+                            "type": "pluralize",
+                            "nVariableName": "count"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "literal": " "
+                }
+            ]
+        },
+        "section.with_pluralization.param_name": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Nombre"
+                }
+            ]
+        },
+        "section.with_variables.title": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Avec variables"
+                }
+            ]
+        },
+        "section.with_variables.text": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Heureux de vous revoir, "
+                },
+                {
+                    "type": "variable",
+                    "variableName": "name"
+                },
+                {
+                    "type": "text",
+                    "literal": "! 👋"
+                }
+            ]
+        },
+        "section.with_variables.placeholder": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Nom"
+                }
+            ]
+        },
+        "app.title": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Démo de "
+                },
+                {
+                    "type": "reference",
+                    "key": "app.name"
+                },
+                {
+                    "type": "text",
+                    "literal": " "
+                }
+            ]
+        },
+        "app.name": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "LocaleHub"
+                }
+            ]
+        },
+        "section.with_pluralization.hint": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "La pluralisation automatique est disponible pour certaines langues uniquement."
+                }
+            ]
+        },
+        "change_culture": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Changer de culture"
+                }
+            ]
+        },
+        "change_culture.hint": {
+            "culture": "fr-FR",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "LocaleHub choisi automatiquement la langue selon les préférences du système. Si votre projet n'en supporte aucune, une culture de substitution est automatiquement choisie."
+                }
+            ]
+        }
+    }
+}

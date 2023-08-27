@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "sdk-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/locale-hub/sdk-swift.git",
+      "state" : {
+        "revision" : "da2acbc5e733f622ff7b1fc5c6b8a569a41efb42",
+        "version" : "3.5.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "a902f1823a7ff3c9ab2fba0f992396b948eda307",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}

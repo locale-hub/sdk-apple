@@ -1,0 +1,155 @@
+{
+    "strings": {
+        "section.static.title": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Static strings"
+                }
+            ]
+        },
+        "section.static.text": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "This is a text localized with LocaleHub"
+                }
+            ]
+        },
+        "section.with_pluralization.title": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "With automatic pluralization"
+                }
+            ]
+        },
+        "section.with_pluralization.text": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Jane and John have "
+                },
+                {
+                    "type": "variable",
+                    "variableName": "count"
+                },
+                {
+                    "type": "text",
+                    "literal": " "
+                },
+                {
+                    "type": "text",
+                    "literal": "dog",
+                    "processors": [
+                        {
+                            "type": "pluralize",
+                            "nVariableName": "count"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "literal": " "
+                }
+            ]
+        },
+        "section.with_pluralization.param_name": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Count"
+                }
+            ]
+        },
+        "section.with_variables.title": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "With variables"
+                }
+            ]
+        },
+        "section.with_variables.text": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Welcome back, "
+                },
+                {
+                    "type": "variable",
+                    "variableName": "name"
+                },
+                {
+                    "type": "text",
+                    "literal": "! 👋"
+                }
+            ]
+        },
+        "section.with_variables.placeholder": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Name"
+                }
+            ]
+        },
+        "app.title": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "reference",
+                    "key": "app.name"
+                },
+                {
+                    "type": "text",
+                    "literal": " Demo"
+                }
+            ]
+        },
+        "app.name": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "LocaleHub"
+                }
+            ]
+        },
+        "section.with_pluralization.hint": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Automatic pluralization is only supported on some languages."
+                }
+            ]
+        },
+        "change_culture": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "Change culture"
+                }
+            ]
+        },
+        "change_culture.hint": {
+            "culture": "en-GB",
+            "tokens": [
+                {
+                    "type": "text",
+                    "literal": "LocaleHub automatically picks the language based on the device settings. If none of the device languages are supported, LocaleHub will fallback to the base culture set in your project settings."
+                }
+            ]
+        }
+    }
+}
